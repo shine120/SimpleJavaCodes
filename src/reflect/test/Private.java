@@ -8,7 +8,7 @@ public class Private
 	 */
 	private String sayHello(String name)
 	{
-		return "Hello " + name;
+		return "Hello " + name + "NI hao";
 	}
 	
 	
