@@ -18,7 +18,7 @@ public class Clinet
 		
 		Subject subject = (Subject)Proxy.newProxyInstance(classType.getClassLoader(),realSubject.getClass().getInterfaces() , handler);
 		
-		System.out.println(subject.getClass());
+		//System.out.println(subject.getClass());
 		subject.request();
 	}
 
