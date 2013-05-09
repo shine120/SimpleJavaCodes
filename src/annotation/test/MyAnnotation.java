@@ -8,7 +8,7 @@ public class MyAnnotation
 	@Deprecated
 	public void output()
 	{
-		// TODO Auto-generated method stub
+		System.out.println("This is Output");
 
 	}
 
